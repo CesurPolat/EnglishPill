@@ -1,0 +1,93 @@
+.TopMenu{
+	position: sticky;
+	top:0px;
+	background-color:white;
+	z-index:1040;
+}
+
+.MenuPanel{	
+    text-align: center;
+}
+
+.LogPanel{
+	border:1px solid #dee2e6;
+	border-radius: 10px;
+}
+
+.ReadPanel{
+	#border:1px solid;
+	border-left:1px solid #dee2e6;
+	border-right:1px solid #dee2e6;
+	border-bottom:1px solid #dee2e6;
+	#border-radius: 10px;
+	border-radius: 0px 0px 10px 10px;
+}
+
+.RInput{
+	border-color: #dc3545;
+	background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' fill='none' stroke='%23dc3545' viewBox='0 0 12 12'%3e%3ccircle cx='6' cy='6' r='4.5'/%3e%3cpath stroke-linejoin='round' d='M5.8 3.6h.4L6 6.5z'/%3e%3ccircle cx='6' cy='8.2' r='.6' fill='%23dc3545' stroke='none'/%3e%3c/svg%3e");
+	background-repeat: no-repeat;
+	background-position: right calc(.375em + .1875rem) center;
+	background-size: calc(.75em + .375rem) calc(.75em + .375rem);
+}
+
+.LessonButtons{
+	
+	border-bottom: 1px solid #dee2e6;
+}
+
+.MDivS{
+	width: 300;
+	height: 200;
+	background-color: white;
+	margin-left: 10px;
+}
+
+.AnswerButtons{
+	opacity:0.8;
+	border:1px solid;
+	border-radius:10px;
+	font-size:200%;
+}
+
+#NextButton{
+	opacity:0.8;
+	border:1px solid;
+	border-radius:10px 0 0 10px;
+	font-size:30px;
+}
+
+.SubtitleBox{
+	position:absolute;
+	bottom:70;
+	border:1px solid black;
+	border-radius:10px;
+	background-color:black;
+	opacity:0.8;
+	color:white;
+}
+
+#YoutubePanel{
+	
+    position: absolute;
+    left: 0;
+	width:100%;
+	height:100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background:rgba(0, 0, 0, 0.8);
+    z-index: 1060;
+
+}
+
+#LessonsPanel{
+	width:100%;
+	height:780px;
+	border:0;
+}
+
+footer{
+	color:white;
+	background-color:#151a1f;
+}

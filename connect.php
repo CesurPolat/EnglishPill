@@ -1,0 +1,1 @@
+<?php $db = mysqli_connect("localhost", "root", "", "englishpill") or die("Error");?>
